@@ -16,9 +16,11 @@
 <style>
 	footer {
 		text-align: center;
-		font-size: x-small;
+		font-size: 0.6em;
 	}
-	footer > a {
+	footer > a:link {
+		text-decoration: underline dotted yellow 1px;
+		color: black;
 	}
 
 </style>

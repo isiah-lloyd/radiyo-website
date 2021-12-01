@@ -27,6 +27,10 @@ import AddToDiscordBtn from "$lib/AddToDiscordBtn.svelte";
 	</div>
 </section>
 <section class="content">
+	<!-- svelte-ignore a11y-media-has-caption -->
+	<video autoplay muted loop>
+		<source src="./product_demo.webm" type="video/webm" />
+	</video>
 	<h1>About</h1>
 	<p>Unlike those <i>other</i> Discord bots, RadiYo! streams from internet radio stations. This means it is completly legal and will not be shutdown.</p>
 	<p>Because RadiYo! streams radio stations, you don't pick and choose each song you want to play. Instead, you find a station that is playing music you like and let their DJ's do the rest. 
@@ -38,7 +42,27 @@ import AddToDiscordBtn from "$lib/AddToDiscordBtn.svelte";
 	<p>Below is a referential list of RadiYo's commands: <br /> (All commands start with /radio)</p>
 	<p></p>
 	<table>
-
+		<tr>
+			<th>Command</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>play &lt;query&gt;</td>
+			<td>starts a radio station based on your query. try searching by a artist!</td>
+		</tr>
+		<tr>
+			<td>browse</td>
+			<td>shows stations we recommend you try! feeling lost? start here!</td>
+		</tr>
+		<tr>
+			<td>search &lt;query&gt; [artist|station]</td>
+			<td>search for a streams by artist or station name</td>
+		</tr>
+		<tr>
+			<td>stop</td>
+			<td>stops the stream</td>
+		</tr>
+		
 	</table>
 
 </section>
@@ -78,12 +102,20 @@ import AddToDiscordBtn from "$lib/AddToDiscordBtn.svelte";
 .col > * {
 	margin: 0.3em;
 }
+video {
+	margin-top: 1em;
+	width: 600px;
+	height: auto;
+}
 @media only screen and (max-width: 768px) {
 	#hero_img {
 		display: none;
 	}
 	.content {
 		padding: 0 0;
+	}
+	video {
+		width: 100%;
 	}
 }
 </style>
