@@ -10,17 +10,15 @@
 </main>
 
 <footer>
-	<a href="https://getyarn.io/yarn-story/7f0308cc-7923-4eda-8b24-cc6731eb0808" target="_blank">a Isiah Lloyd production</a>
+	<!--<a href="https://www.youtube.com/watch?v=kcC8JW_Rppo" target="_blank" rel="noopener">a Isiah Lloyd production</a>-->
+	<a href="https://isiah.me" target="_blank" rel="noopener">by isiah</a><span>&nbsp;|&nbsp;</span><a href="https://github.com/isiah-lloyd/radiyo-website" target="_blank" rel="noopener">website src</a>
 </footer>
 
 <style>
 	footer {
 		text-align: center;
-		font-size: 0.6em;
+		font-size: 1em;
 	}
-	footer > a:link {
-		text-decoration: underline dotted yellow 1px;
-		color: black;
-	}
+
 
 </style>

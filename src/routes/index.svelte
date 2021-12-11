@@ -20,6 +20,9 @@ import AddToDiscordBtn from "$lib/AddToDiscordBtn.svelte";
 		<p>✔ No need to add songs to queue</p>
 		<div id="add_btn_holder">
 			<AddToDiscordBtn />
+			<a href="https://github.com/isiah-lloyd/RadiYo" target="_blank" rel="noopener">
+				<img id="github_logo" src="./github.svg" alt="GitHub Logo">
+			</a>
 		</div>
 	</div>
 	<div id="hero_img" class="col">
@@ -28,12 +31,12 @@ import AddToDiscordBtn from "$lib/AddToDiscordBtn.svelte";
 </section>
 <section class="content">
 	<!-- svelte-ignore a11y-media-has-caption -->
-	<video autoplay muted loop>
+	<video autoplay muted loop playsinline>
 		<source src="./product_demo.webm" type="video/webm" />
 	</video>
 	<h1>About</h1>
-	<p>Unlike those <i>other</i> Discord bots, RadiYo! streams from internet radio stations. This means it is completly legal and will not be shutdown.</p>
-	<p>Because RadiYo! streams radio stations, you don't pick and choose each song you want to play. Instead, you find a station that is playing music you like and let their DJ's do the rest. 
+	<p>Unlike those <i>other</i> Discord bots, RadiYo! streams from internet radio stations. This means it is completely legal and will not be shutdown.</p>
+	<p>Because RadiYo! streams radio stations, you don't pick and choose each song you want to play. Instead, you find a station that is playing music you like and let their DJ's do the rest.
 	   This lets you worry more about your ranked match instead queuing up the next song. RadiYo! includes a feature to search for a station by an artist that's currently playing, this should help you find the right music to fit the mood.</p>
 </section>
 <section class="content">
@@ -55,21 +58,29 @@ import AddToDiscordBtn from "$lib/AddToDiscordBtn.svelte";
 			<td>shows stations we recommend you try! feeling lost? start here!</td>
 		</tr>
 		<tr>
-			<td>search &lt;query&gt; [artist|station]</td>
-			<td>search for a streams by artist or station name</td>
+			<td>asearch &lt;artist&gt; </td>
+			<td>search for streams by artist</td>
+		</tr>
+		<tr>
+			<td>gsearch &lt;genre&gt; </td>
+			<td>search for streams by genre</td>
+		</tr>
+		<tr>
+			<td>stsearch &lt;station&gt; </td>
+			<td>search for streams by station name</td>
 		</tr>
 		<tr>
 			<td>stop</td>
 			<td>stops the stream</td>
 		</tr>
-		
+
 	</table>
 
 </section>
 <section class="content">
 	<h1>Support</h1>
-	<p>For help, questions, or comments on RadiYo, you can join our <a href="https://discord.gg/s8nqYm76Xa" target="_blank">community Discord server.</a></p>
-	<p>If you have found a bug or have a feature request, please <a href="https://github.com/isiah-lloyd/RadiYo/issues/new">raise an issue in the Github repo</a></p>
+	<p>For help, questions, or comments on RadiYo, you can join our <a href="https://discord.gg/s8nqYm76Xa" target="_blank" rel="noopener">community Discord server.</a></p>
+	<p>If you have found a bug or have a feature request, please <a href="https://github.com/isiah-lloyd/RadiYo/issues/new" rel="noopener">raise an issue in the Github repo</a></p>
 </section>
 <style>
 #hero {
@@ -98,6 +109,13 @@ import AddToDiscordBtn from "$lib/AddToDiscordBtn.svelte";
 }
 #add_btn_holder {
 	margin-top: 1.5em;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+#github_logo {
+	width: 3em;
+	margin-left: .3em;
 }
 .col > * {
 	margin: 0.3em;
