@@ -12,6 +12,7 @@
 <footer>
 	<!--<a href="https://www.youtube.com/watch?v=kcC8JW_Rppo" target="_blank" rel="noopener">a Isiah Lloyd production</a>-->
 	<a href="https://isiah.me" target="_blank" rel="noopener">by isiah</a><span>&nbsp;|&nbsp;</span><a href="https://github.com/isiah-lloyd/radiyo-website" target="_blank" rel="noopener">website src</a>
+	<span>&nbsp;|&nbsp;</span><a href="https://forms.gle/XgaVKt5H9E2ybQrY7" target="_blank" rel="noopener">data deletion req</a>
 </footer>
 
 <style>

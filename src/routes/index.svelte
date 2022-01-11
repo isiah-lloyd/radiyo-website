@@ -79,7 +79,7 @@ import AddToDiscordBtn from "$lib/AddToDiscordBtn.svelte";
 </section>
 <section class="content">
 	<h1>Support</h1>
-	<p>For help, questions, or comments on RadiYo, you can join our <a href="https://discord.gg/s8nqYm76Xa" target="_blank" rel="noopener">community Discord server.</a></p>
+	<p>For help, questions, or comments on RadiYo, you can join our <a href="https://discord.gg/aQ4sZ9cJcb" target="_blank" rel="noopener">community Discord server.</a></p>
 	<p>If you have found a bug or have a feature request, please <a href="https://github.com/isiah-lloyd/RadiYo/issues/new" rel="noopener">raise an issue in the Github repo</a></p>
 </section>
 <style>
