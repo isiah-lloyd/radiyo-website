@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="icon" type="image/png" sizes="128x128" href="./RadiYo128.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./RadiYo32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./RadiYo16.png">
+		<meta name="description" content="RadiYo! is a Discord bot that plays internet radio stations for you and your friends.">
+		<meta property="og:type" content="website">
+
+		<meta property="og:url" content="https://radiyobot.com/">
+		<meta property="og:title" content="RadiYo! - A Discord Bot for Music">
+		<meta property="og:description" content="RadiYo! is a Discord bot that plays internet radio stations for you and your friends.">
+		<meta property="og:image" content="https://radiyobot.com/RadiYoSocialMedia.png">
+
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:url" content="https://radiyobot.com/">
+		<meta property="twitter:title" content="RadiYo! - A Discord Bot for Music">
+		<meta property="twitter:description" content="RadiYo! is a Discord bot that plays internet radio stations for you and your friends.">
+		<meta property="twitter:image" content="https://radiyobot.com/RadiYoSocialMedia.png">
+
+		<meta name="theme-color" content="#f7c6b1">
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-YK9SC56SZN"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-YK9SC56SZN');
+		</script>
+
+		<title>RadiYo - A Discord Bot for music</title>
+
+		
+
+		<link rel="modulepreload" href="/_app/start-46329312.js">
+		<link rel="modulepreload" href="/_app/chunks/vendor-bc2baa86.js">
+		<link rel="modulepreload" href="/_app/pages/__layout.svelte-8c2c0f76.js">
+		<link rel="modulepreload" href="/_app/pages/index.svelte-0f6d1ba5.js">
+		<link rel="stylesheet" href="/_app/assets/start-61d1577b.css">
+		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-c8500f28.css">
+		<link rel="stylesheet" href="/_app/assets/pages/index.svelte-9f6d3ce9.css">
+
+		<script type="module">
+			import { start } from "/_app/start-46329312.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/_app/pages/__layout.svelte-8c2c0f76.js"),
+						import("/_app/pages/index.svelte-0f6d1ba5.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "\u002F",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<header class="svelte-14kuvp6"><img src="./RadiYo.svg" alt="RadiYo! Logo" class="svelte-14kuvp6">RadiYo!
+</header>
+
+<main>
+
+<section id="hero" class="svelte-4h7mmu"><div class="col svelte-4h7mmu"><h1 class="svelte-4h7mmu">Music to your server&#39;s ears.</h1>
+		<p class="svelte-4h7mmu">RadiYo! allows you to listen to internet radio stations in Discord</p>
+		<p class="svelte-4h7mmu">✔ 100% free</p>
+		<p class="svelte-4h7mmu">✔ Very legal and very cool</p>
+		<p class="svelte-4h7mmu">✔ No need to add songs to queue</p>
+		<div id="add_btn_holder" class="svelte-4h7mmu"><a href="https://discord.com/api/oauth2/authorize?client_id=895354013116153876&permissions=3147840&scope=bot%20applications.commands" target="_blank" rel="noopener" class="svelte-1v3e1a7"><button class="svelte-1v3e1a7"><img src="./Discord-Logo-White.svg" alt="Discord Logo" class="svelte-1v3e1a7">
+        Add to server
+    </button>
+</a>
+			<a href="https://github.com/isiah-lloyd/RadiYo" target="_blank" rel="noopener"><img id="github_logo" src="./github.svg" alt="GitHub Logo" class="svelte-4h7mmu"></a></div></div>
+	<div id="hero_img" class="col svelte-4h7mmu"><img src="./Party.svg" alt="A trio of lads dancing around a disco ball" class="svelte-4h7mmu"></div></section>
+<section class="content svelte-4h7mmu">
+	<video autoplay muted loop playsinline class="svelte-4h7mmu"><source src="./product_demo.webm" type="video/webm"></video>
+	<h1>About</h1>
+	<p>Unlike those <i>other</i> Discord bots, RadiYo! streams from internet radio stations. This means it is completely legal and will not be shutdown.</p>
+	<p>Because RadiYo! streams radio stations, you don&#39;t pick and choose each song you want to play. Instead, you find a station that is playing music you like and let their DJ&#39;s do the rest.
+	   This lets you worry more about your ranked match instead queuing up the next song. RadiYo! includes a feature to search for a station by an artist that&#39;s currently playing, this should help you find the right music to fit the mood.</p></section>
+<section class="content svelte-4h7mmu"><h1>How to use</h1>
+	<p>RadiYo! uses Discord&#39;s fancy new <i>slash commands</i>, this means all of RadiYo&#39;s commands will autocomplete as soon as you type <i>/radio</i></p>
+	<p>Below is a referential list of RadiYo&#39;s commands: <br> (All commands start with /radio)</p>
+	<p></p>
+	<table><tr><th>Command</th>
+			<th>Description</th></tr>
+		<tr><td>play &lt;query&gt;</td>
+			<td>starts a radio station based on your query. try searching by a artist!</td></tr>
+		<tr><td>browse</td>
+			<td>shows stations we recommend you try! feeling lost? start here!</td></tr>
+		<tr><td>asearch &lt;artist&gt; </td>
+			<td>search for streams by artist</td></tr>
+		<tr><td>gsearch &lt;genre&gt; </td>
+			<td>search for streams by genre</td></tr>
+		<tr><td>stsearch &lt;station&gt; </td>
+			<td>search for streams by station name</td></tr>
+		<tr><td>stop</td>
+			<td>stops the stream</td></tr></table></section>
+<section class="content svelte-4h7mmu"><h1>Support</h1>
+	<p>For help, questions, or comments on RadiYo, you can join our <a href="https://discord.gg/aQ4sZ9cJcb" target="_blank" rel="noopener">community Discord server.</a></p>
+	<p>If you have found a bug or have a feature request, please <a href="https://github.com/isiah-lloyd/RadiYo/issues/new" rel="noopener">raise an issue in the Github repo</a></p>
+</section></main>
+
+<footer class="svelte-1wiqfhg">
+	<a href="https://isiah.me" target="_blank" rel="noopener">by isiah</a><span> | </span><a href="https://github.com/isiah-lloyd/radiyo-website" target="_blank" rel="noopener">website src</a>
+	<span> | </span><a href="https://forms.gle/XgaVKt5H9E2ybQrY7" target="_blank" rel="noopener">data deletion req</a>
+</footer>
+
+
+
+			
+		</div>
+	</body>
+</html>
