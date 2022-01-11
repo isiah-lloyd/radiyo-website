@@ -1,3 +1,11 @@
+<script context="module" lang="ts">
+	export const prerender = true;
+</script>
+
+<svelte:head>
+	<title>RadiYo - Terms</title>
+</svelte:head>
+
 <h1>Website Terms and Conditions of Use</h1>
 
 <h2>1. Terms</h2>

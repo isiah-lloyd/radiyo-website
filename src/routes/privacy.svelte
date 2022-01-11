@@ -1,3 +1,9 @@
+<script context="module" lang="ts">
+	export const prerender = true;
+</script>
+<svelte:head>
+	<title>RadiYo - Privacy</title>
+</svelte:head>
 <h1>Privacy</h1>
 
 <h2>Google Analytics</h2>
